@@ -1,0 +1,9 @@
+{
+    "commentTranslateBaidu.displayName": "Comment Translate",
+    "commentTranslateBaidu.description": "This plugin uses the Google Translate API to translate comments for the VSCode programming language.",
+    "commentTranslateBaidu.command.select": "Quickly select the last translation area",
+    "commentTranslateBaidu.command.changeTargetLanguage": "Change translate target language",
+    "commentTranslateBaidu.command.replaceSelections": "Translate and replace selections",
+    "commentTranslateBaidu.configuration.targetLanguage": "Translation to target language",
+    "commentTranslateBaidu.configuration.MultilineMerge": "Comment Multi-line merge"
+}

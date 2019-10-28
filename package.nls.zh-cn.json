@@ -1,0 +1,9 @@
+{
+    "commentTranslateBaidu.displayName": "注释翻译",
+    "commentTranslateBaidu.description": "此插件使用Google Translate API翻译VSCode编程语言的注释、变量、字符串等。并提供翻译替换功能。",
+    "commentTranslateBaidu.command.select": "快速选择最后一个翻译区域",
+    "commentTranslateBaidu.command.changeTargetLanguage": "更改翻译目标语言",
+    "commentTranslateBaidu.command.replaceSelections": "翻译并替换选区",
+    "commentTranslateBaidu.configuration.targetLanguage": "翻译成目标语言",
+    "commentTranslateBaidu.configuration.MultilineMerge": "多行注释合并"
+}

@@ -1,0 +1,73 @@
+{
+    "name": "comment-translate-baidu",
+    "displayName": "%commentTranslateBaidu.displayName%",
+    "description": "%commentTranslateBaidu.description%",
+    "version": "0.0.1",
+    "publisher": "1194979849",
+    "author": {
+        "name": "余生",
+        "email": "1194979849@qq.com"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "comment",
+        "translate",
+        "hover",
+        "baidu translate",
+        "baidu",
+        "百度",
+        "翻译",
+        "注释",
+        "翻訳"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "icon": "doc/image/icon.png",
+    "main": "./client/out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "commentTranslateBaidu.select",
+                "title": "%commentTranslateBaidu.command.select%",
+                "category": "Comment Translate"
+            },
+            {
+                "command": "commentTranslateBaidu.changeTargetLanguage",
+                "title": "%commentTranslateBaidu.command.changeTargetLanguage%",
+                "category": "Comment Translate"
+            },
+            {
+                "command": "commentTranslateBaidu.replaceSelections",
+                "title": "%commentTranslateBaidu.command.replaceSelections%",
+                "category": "Comment Translate"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "commentTranslateBaidu.select",
+                "key": "ctrl+shift+s"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "cd client && npm run update-vscode && cd .. && npm run compile",
+        "compile:client": "tsc -p ./client/tsconfig.json",
+        "compile:server": "tsc -p ./server/tsconfig.json",
+        "watch:client": "tsc -w -p ./client/tsconfig.json",
+        "watch:server": "tsc -w -p ./server/tsconfig.json",
+        "compile": "npm run compile:client && npm run compile:server",
+        "postinstall": "cd client && npm install && cd ../server && npm install && cd ..",
+        "test": "sh ./scripts/e2e.sh"
+    },
+    "devDependencies": {
+        "@types/node": "^12.6.8",
+        "typescript": "^3.5.3"
+    }
+}
