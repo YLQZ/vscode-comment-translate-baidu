@@ -2,7 +2,7 @@
     "name": "comment-translate-baidu",
     "displayName": "%commentTranslateBaidu.displayName%",
     "description": "%commentTranslateBaidu.description%",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "1194979849",
     "author": {
         "name": "余生",
