@@ -6,16 +6,16 @@
 
 ## 功能
 1. 识别代码中注释部分，不干扰阅读。支持不同语言，单行、多行注释
-![Introduction](doc/image/cn/Introduction.gif)
+![Introduction](./doc/image/cn/Introduction.gif)
 
 2. 支持用户字符串与变量翻译,支持驼峰拆分
-![Introduction](doc/image/cn/variable.gif)
+![Introduction](./doc/image/cn/variable.gif)
 
 3. 选择区域翻译 - 划词翻译
-![Introduction](doc/image/cn/selection.gif)
+![Introduction](./doc/image/cn/selection.gif)
 
 4. 翻译并替换选择内容
-![Introduction](doc/image/translate-selections.gif)
+![Introduction](./doc/image/translate-selections.gif)
 
 5. 选中最后一次翻译区域命令
-![Introduction](doc/image/cn/select.gif)
+![Introduction](./doc/image/cn/select.gif)
